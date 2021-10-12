@@ -1,0 +1,1 @@
+{"name":"Local: template","url":"/home/spunky/Coding/practice/template.cpp","tests":[{"id":1632560651987,"input":"3\n2\n3 1\n4 2\n3\n5 3 1\n2 4 6\n5\n7 5 9 1 3\n2 4 6 10 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/template.cpp","group":"local","local":true}
