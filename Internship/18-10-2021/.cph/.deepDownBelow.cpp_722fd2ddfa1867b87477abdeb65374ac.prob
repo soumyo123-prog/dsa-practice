@@ -1,0 +1,1 @@
+{"name":"Local: deepDownBelow","url":"/home/spunky/Coding/practice/Internship/18-10-2021/deepDownBelow.cpp","tests":[{"id":1634570571721,"input":"2\n1\n1 42\n2\n3 10 15 8\n2 12 11\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/18-10-2021/deepDownBelow.cpp","group":"local","local":true}
