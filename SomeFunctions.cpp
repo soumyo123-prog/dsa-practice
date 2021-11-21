@@ -7,8 +7,17 @@ using namespace std;
 #define pb push_back
 #define mp make_pair
 #define rep(i, a, b) for (int i = a; i < b; i++)
-#define vvi vector<vector<int>>
-#define vi vector<int>
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int, int> pint;
+typedef vector<vector<int>> vvint;
+typedef vector<int> vint;
+typedef vector<pair<int, int>> vpint;
+typedef vector<char> vchar;
+typedef vector<string> vstring;
+typedef map<int, int> mint;
+typedef set<int> sint;
 
 void initialize(vector<int> &arr, int n) {
   for (int i = 0; i < n; i++) {

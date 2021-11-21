@@ -1,0 +1,1 @@
+{"name":"Local: discreteAccl","url":"/home/spunky/Coding/practice/Internship/16-11-2021/discreteAccl.cpp","tests":[{"id":1637047913300,"input":"1\n2 1000000000\n413470354 982876160","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/16-11-2021/discreteAccl.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: potions","url":"/home/spunky/Coding/practice/Internship/18-11-2021/potions.cpp","tests":[{"id":1637243861311,"input":"12\n-3 -3 -7 -7 -1 -7 3 3 -2 -1 0 -7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/18-11-2021/potions.cpp","group":"local","local":true}
