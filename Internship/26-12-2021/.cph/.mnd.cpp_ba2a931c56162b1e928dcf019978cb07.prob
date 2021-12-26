@@ -1,0 +1,1 @@
+{"name":"Local: mnd","url":"/home/spunky/Coding/practice/Internship/26-12-2021/mnd.cpp","tests":[{"id":1640503499710,"input":"5 3 2\n5 4\n2 1\n4 3\n4 3\n1 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/26-12-2021/mnd.cpp","group":"local","local":true}

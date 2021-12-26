@@ -1,0 +1,1 @@
+{"name":"Local: divanAndBitwise","url":"/home/spunky/Coding/practice/Internship/26-11-2021/divanAndBitwise.cpp","tests":[{"id":1637929716164,"input":"1\n3 3\n1 3 7\n1 2 7\n2 3 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/26-11-2021/divanAndBitwise.cpp","group":"local","local":true}
