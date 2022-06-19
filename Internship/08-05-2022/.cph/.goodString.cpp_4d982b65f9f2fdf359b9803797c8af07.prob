@@ -1,0 +1,1 @@
+{"name":"Local: goodString","url":"/home/spunky/coding/practice/Internship/08-05-2022/goodString.cpp","tests":[{"id":1652023077509,"input":"1\n10\n0001111010","output":"3\n0\n0\n0\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/08-05-2022/goodString.cpp","group":"local","local":true}

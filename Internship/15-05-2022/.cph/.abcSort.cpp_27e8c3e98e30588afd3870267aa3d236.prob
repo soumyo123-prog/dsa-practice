@@ -1,0 +1,1 @@
+{"name":"Local: abcSort","url":"/home/spunky/coding/practice/Internship/15-05-2022/abcSort.cpp","tests":[{"id":1652624167026,"input":"3\n4\n3 1 5 3\n3\n3 2 1\n1\n7331\n","output":"YES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/15-05-2022/abcSort.cpp","group":"local","local":true}

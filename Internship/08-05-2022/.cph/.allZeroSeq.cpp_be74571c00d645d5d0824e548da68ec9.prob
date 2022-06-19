@@ -1,0 +1,1 @@
+{"name":"Local: allZeroSeq","url":"/home/spunky/coding/practice/Internship/08-05-2022/allZeroSeq.cpp","tests":[{"id":1652021038459,"input":"3\n3\n1 2 3\n3\n1 2 2\n3\n1 2 0\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/08-05-2022/allZeroSeq.cpp","group":"local","local":true}

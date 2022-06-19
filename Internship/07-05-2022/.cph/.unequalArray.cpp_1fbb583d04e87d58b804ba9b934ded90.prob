@@ -1,0 +1,1 @@
+{"name":"Local: unequalArray","url":"/home/spunky/coding/practice/Internship/07-05-2022/unequalArray.cpp","tests":[{"id":1651951841899,"input":"1\n7\n1 1 1 1 1 1 1","output":"2\n1\n2\n0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/07-05-2022/unequalArray.cpp","group":"local","local":true}

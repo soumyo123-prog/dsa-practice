@@ -1,0 +1,1 @@
+{"name":"Local: dictionary","url":"/home/spunky/coding/practice/Internship/07-05-2022/dictionary.cpp","tests":[{"id":1651946460115,"input":"7\nab\nac\naz\nba\nbc\nzx\nzy\n","output":"1\n2\n25\n26\n27\n649\n650\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/07-05-2022/dictionary.cpp","group":"local","local":true}

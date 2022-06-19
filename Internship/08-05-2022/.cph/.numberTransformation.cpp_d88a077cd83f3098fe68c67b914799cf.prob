@@ -1,0 +1,1 @@
+{"name":"Local: numberTransformation","url":"/home/spunky/coding/practice/Internship/08-05-2022/numberTransformation.cpp","tests":[{"id":1651991935430,"input":"3\n3 75\n100 100\n42 13\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/08-05-2022/numberTransformation.cpp","group":"local","local":true}
