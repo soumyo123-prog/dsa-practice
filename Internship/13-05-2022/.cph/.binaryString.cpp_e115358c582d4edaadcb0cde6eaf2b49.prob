@@ -1,1 +1,0 @@
-{"name":"Local: binaryString","url":"/home/spunky/coding/practice/Internship/13-05-2022/binaryString.cpp","tests":[{"id":1652458103313,"input":"5\n101110110\n1001001001001\n0000111111\n00000\n1111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/coding/practice/Internship/13-05-2022/binaryString.cpp","group":"local","local":true}

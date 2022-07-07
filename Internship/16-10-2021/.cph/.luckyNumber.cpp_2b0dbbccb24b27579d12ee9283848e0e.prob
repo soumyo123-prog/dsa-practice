@@ -1,1 +1,0 @@
-{"name":"Local: luckyNumber","url":"/home/spunky/Coding/practice/Internship/16-10-2021/luckyNumber.cpp","tests":[{"id":1634369126768,"input":"3\n0 0 0\n7 8 9\n2 7 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/16-10-2021/luckyNumber.cpp","group":"local","local":true}

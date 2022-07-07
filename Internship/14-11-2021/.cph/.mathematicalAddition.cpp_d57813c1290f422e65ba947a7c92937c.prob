@@ -1,1 +1,0 @@
-{"name":"Local: mathematicalAddition","url":"/home/spunky/Coding/practice/Internship/14-11-2021/mathematicalAddition.cpp","tests":[{"id":1636870396435,"input":"4\n1 1\n2 3\n3 5\n6 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/14-11-2021/mathematicalAddition.cpp","group":"local","local":true}

@@ -56,24 +56,26 @@ int numDecodings(string s) {
   if (n == 1) {
     return 1;
   }
-  if (n == 2) {
-    if (s[1] == '0') {
-      if (s[0] >= '3') {
-        return 0;
-      }
-      return 1;
-    }
-    if (s[0] >= '2' && s[1] >= '7') {
-      return 1;
-    }
-    return 2;
-  }
-
-  int dp[n] = {0};
-  dp[0] = 1;
+  vector<int> dp(n + 1, 0);
+  dp[0] = 1, dp[1] = 1;
   for (int i = 1; i < n; i++) {
-    char c1 = s[i - 1], c2 = s[i];
+    int curr = 0;
+    if (s[i] != '0') {
+      curr += dp[i];
+      if (s[i - 1] >= '1' && s[i - 1] <= '2' && s[i] <= '6') {
+        curr += dp[i - 1];
+      }
+    } else {
+      if (s[i - 1] <= '2' && s[i - 1] >= '1') {
+        curr += dp[i - 1];
+      }
+    }
+    if (curr == 0) {
+      return 0;
+    }
+    dp[i + 1] = curr;
   }
+  return dp[n];
 }
 
 void solve() { out numDecodings("226") endl; }

@@ -1,1 +1,0 @@
-{"name":"Local: makeThemEqual","url":"/home/spunky/Coding/practice/Internship/14-10-2021/makeThemEqual.cpp","tests":[{"id":1634200736983,"input":"3\n4 a\naaaa\n4 a\nbaaa\n4 b\nbzyx\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/spunky/Coding/practice/Internship/14-10-2021/makeThemEqual.cpp","group":"local","local":true}
