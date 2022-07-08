@@ -11,21 +11,21 @@ struct TreeNode {
       : val(x), left(left), right(right) {}
 };
 
-int height(TreeNode *root) {
+int helper(TreeNode *node, int &maxTillNow) {
+  if (node == NULL) return 0;
+  int left = max(0, helper(node->left, maxTillNow));
+  int right = max(0, helper(node->right, maxTillNow));
+  maxTillNow = max(maxTillNow, node->val + left + right);
+  return node->val + max(left, right);
+}
+
+int maxPathSum(TreeNode *root) {
   if (root == NULL) {
     return 0;
   }
-  int lh = height(root->left);
-  int rh = height(root->right);
-  if (lh == -1 || rh == -1) {
-    return -1;
-  }
-  if (abs(lh - rh) >= 2) {
-    return -1;
-  }
-  return 1 + max(height(root->left), height(root->right));
+  int maxTillNow = INT_MIN;
+  helper(root, maxTillNow);
+  return maxTillNow;
 }
-
-bool isBalanced(TreeNode *root) { return height(root->left) != -1; }
 
 int main() { return 0; }

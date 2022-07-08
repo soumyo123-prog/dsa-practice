@@ -11,21 +11,21 @@ struct TreeNode {
       : val(x), left(left), right(right) {}
 };
 
-int height(TreeNode *root) {
-  if (root == NULL) {
+int height(TreeNode *node, int &diameter) {
+  if (node == NULL) {
     return 0;
   }
-  int lh = height(root->left);
-  int rh = height(root->right);
-  if (lh == -1 || rh == -1) {
-    return -1;
-  }
-  if (abs(lh - rh) >= 2) {
-    return -1;
-  }
-  return 1 + max(height(root->left), height(root->right));
+  int lh = height(node->left, diameter);
+  int rh = height(node->right, diameter);
+  diameter = max(diameter, 1 + lh + rh);
+  return 1 + max(lh, rh);
 }
 
-bool isBalanced(TreeNode *root) { return height(root->left) != -1; }
+int diameterOfBinaryTree(TreeNode *root) {
+  if (root == NULL) return 0;
+  int diameter = 0;
+  height(root, diameter);
+  return diameter;
+}
 
 int main() { return 0; }
